@@ -28,7 +28,7 @@ This section describes the accuracy and balanced accuracy scores, and the precis
 
 Following are the key results that can be drawn from the results computed by the Logistic Regression model that was performed on the original fitted data:
 
-[Logistic Regression - Classification Report](Images/Image1.PNG)
+![Logistic Regression - Classification Report](Images/Image1.PNG)
 
   * This model does a good job in predicting both the healthy and the high-risk loans as can be inferred from the high accuracy score of 99.18% and balanced accuracy score of 95.20%. However, we have to take into consideration that the data is imbalanced as 96.77% of the target values (75036 out of 77536) are for the healthy loans. 
 
@@ -41,7 +41,7 @@ Following are the key results that can be drawn from the results computed by the
 
 Following are the key results that can be drawn from the results computed by the Logistic Regression model that was performed on the data resampled through RandomOverSampler:
 
-[RandomOverSampler - Classification Report](Images/Image2.PNG)
+![RandomOverSampler - Classification Report](Images/Image2.PNG)
 
   * This model does a great job in predicting both the healthy and the high-risk loans as can be inferred from the high accuracy score of 99.38% and balanced accuracy score of 99.37%. 
 
